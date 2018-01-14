@@ -61,7 +61,7 @@ namespace concurrency {
 			m_container.pop_front();
 			return ptr;
 		}
-		
+
 	private:
 		std::mutex              m_mtx;
 		std::condition_variable m_cond;
